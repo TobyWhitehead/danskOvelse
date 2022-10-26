@@ -11,7 +11,7 @@ public class gameRunner {
                                 
                 """);
         dataReader myDataReader = new dataReader();
-        HashMap<String, String> myDataMap = myDataReader.readDataFile(new File("resources/words/danskWords.txt"));
+        HashMap<String, String> myDataMap = myDataReader.readDataFile(new File("resources/words/failedDanskWords.txt"));
         //TODO change to have an input folder rather than an input file
         Stack<String> myStack = new Stack<>();
         for (String key : myDataMap.keySet()) {
