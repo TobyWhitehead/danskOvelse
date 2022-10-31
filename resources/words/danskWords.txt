@@ -209,3 +209,6 @@ at_regne_ud = calculate
 ejer = owner
 undgå = avoid
 hylder = shelves
+opfordret = encouraged
+lagting = parliament
+genoptaget = resumed
